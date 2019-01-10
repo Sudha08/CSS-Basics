@@ -1,2 +1,71 @@
 CSS basics
 -----------
+
+Prerequisites:
+---------------
+- little bit of HTML
+-----------------------------------------------------------------------------------------------------------
+
+What will be covered:
+-----------------------
+- what CSS is
+- CSS syntax
+- Elements, classes and Id selectors
+- Formatting text
+- The box model
+- put it all together
+-----------------------------------------------------------------------------------------------------------
+
+What is CSS?
+--------------
+- CSS - Cascading Style Sheets
+- CSS controls the presentation of a HTML page
+- Constantly chaging standards
+   - currently CSS3
+- CSS & CSS3 are the samething
+- varying support across the browsers - check this before using CSS in any browser
+-----------------------------------------------------------------------------------------------------------
+
+Default browser styles:
+------------------------
+- All browsers apply some basic styling to HTML
+   - Margin, padding b/wn elements, underlining links, etc.
+- Browsers (eg- chrome, firefox, IE) apply their own default styles
+   - There is not much change b/wn them, but there might be slight diff. like font-size, padding,
+      margin, etc.
+- We need to be aware of these default styles since we need to override these styles with our own
+  when we write our CSS
+-----------------------------------------------------------------------------------------------------------
+
+CSS Syntax:
+------------
+- CSS is a collection of rules
+- Each rule targets specific tags or elements in the HTML document and within each rule we cna specify how
+  each tag or element should look visually
+    -  Rule which targets all 'p' tags on the page
+    -  Rule which targets all tags with an #id
+    -  Rule which targets all 'a' tags in the 'nav'
+- Rules come in 2 parts
+    - All CSS rules are made up of 2 components
+
+        SELECTOR        DECLARATION
+        
+       #page-header   {font-size:10px;}
+- Selectors:
+  ----------
+  - Selectors can target tag names, ids, classes and many other things
+    
+    - #header p {declaration}
+    - .comment div {declaration}
+    - li {declaration}
+- Declaration:
+  ------------
+  - Delcaration contain properties and values
+
+    - #selector {font-size:10px; }
+    - #selector {
+        font-size:10px; 
+        color:red;
+        }
+-----------------------------------------------------------------------------------------------------------
+
