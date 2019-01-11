@@ -105,6 +105,17 @@ refer index.html, CSS/syntax.css
 
 - External style sheets - most preferred
   ---------------------
+  - Quicker & easier
+
+  - Add the below line in the <head> of the <html> to link the external style sheet
+
+    <link rel="stylesheet" type="text/css" href="CSS/syntax.css" />
+        
+    - rel - relation
+    - type - type of the file/doc.
+    - href - location of the external style sheet
+
+  refer - index.html, contact.html, syntax.css
 
 ------------------------------------------------------------------------------------------------------
 
