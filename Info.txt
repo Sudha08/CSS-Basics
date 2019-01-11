@@ -4,7 +4,7 @@ CSS basics
 Prerequisites:
 ---------------
 - little bit of HTML
------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 What will be covered:
 -----------------------
@@ -14,7 +14,7 @@ What will be covered:
 - Formatting text
 - The box model
 - put it all together
------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 What is CSS?
 --------------
@@ -24,7 +24,7 @@ What is CSS?
    - currently CSS3
 - CSS & CSS3 are the samething
 - varying support across the browsers - check this before using CSS in any browser
------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 Default browser styles:
 ------------------------
@@ -35,13 +35,13 @@ Default browser styles:
       margin, etc.
 - We need to be aware of these default styles since we need to override these styles with our own
   when we write our CSS
------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 CSS Syntax:
 ------------
 - CSS is a collection of rules
-- Each rule targets specific tags or elements in the HTML document and within each rule we cna specify how
-  each tag or element should look visually
+- Each rule targets specific tags or elements in the HTML document and within each rule we can 
+  specify how each tag or element should look visually
     -  Rule which targets all 'p' tags on the page
     -  Rule which targets all tags with an #id
     -  Rule which targets all 'a' tags in the 'nav'
@@ -67,5 +67,45 @@ CSS Syntax:
         font-size:10px; 
         color:red;
         }
------------------------------------------------------------------------------------------------------------
+
+
+refer index.html, CSS/syntax.css
+------------------------------------------------------------------------------------------------------
+
+3 ways to add CSS:
+------------------
+- Inline styling
+  --------------
+   - Time consuming to style multiple elements
+   - Tricky to manage & update
+   - Messy HTML doc. 
+
+   - Good for very specialised rules - for eg- a warning msg where we need a specific style to
+                                               override anyother styles
+    
+    refer - index.html
+
+    - Inline style has been applied for the <div id="header">
+      when we have multiple <div> tags, it is hard to apply inline styles for all of them.
+
+- Embedded styling
+  ----------------
+  - Time consuming to apply global styles
+  - Hard to maintain & update
+
+  - Good for making specific page styles
+
+  refer - index.html, contact.HTML
+
+  - Embedded style has been applied for all the <p> tags in both the pages.
+    It is hard to apply this type of styling when we have huge number of pages
+
+- Both Inline & Embedded styles can be used when a specific page related or tag related style
+  needs to be applied
+
+- External style sheets - most preferred
+  ---------------------
+
+------------------------------------------------------------------------------------------------------
+
 
