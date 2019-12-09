@@ -1,3 +1,20 @@
+
+/* LESSON-1 - SAMPLE RULES*/
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header h1 {
+    font-size: 32px;
+}
+
+/* LESSON-2 - NO SPECIFIC RULES ADDED */
+
+/* LESSON-3 - EXTERNAL STYLESHEET */ 
+
 p {
     font-size: 18px;
     color: red;

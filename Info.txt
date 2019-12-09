@@ -16,6 +16,9 @@ What will be covered:
 - put it all together
 ------------------------------------------------------------------------------------------------------
 
+LESSON-1 - Intro, Default browser styles, Syntax
+--------------------------------------------------
+
 What is CSS?
 --------------
 - CSS - Cascading Style Sheets
@@ -40,6 +43,7 @@ Default browser styles:
 CSS Syntax:
 ------------
 - CSS is a collection of rules
+
 - Each rule targets specific tags or elements in the HTML document and within each rule we can 
   specify how each tag or element should look visually
     -  Rule which targets all 'p' tags on the page
@@ -71,6 +75,9 @@ CSS Syntax:
 
 refer index.html, CSS/syntax.css
 ------------------------------------------------------------------------------------------------------
+
+LESSON-2 - Inline & Embedded styles
+-------------------------------------
 
 3 ways to add CSS:
 ------------------
