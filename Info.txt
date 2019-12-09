@@ -40,6 +40,7 @@ Default browser styles:
 CSS Syntax:
 ------------
 - CSS is a collection of rules
+
 - Each rule targets specific tags or elements in the HTML document and within each rule we can 
   specify how each tag or element should look visually
     -  Rule which targets all 'p' tags on the page
