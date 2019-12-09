@@ -130,4 +130,26 @@ LESSON-2 - Inline & Embedded styles
 
 ------------------------------------------------------------------------------------------------------
 
+  LESSON-4 - Adding Comments & Targeting Elements/Tags
+  -----------------------------------------------------
+
+CSS comments:
+-------------
+- way to add some plain text to the styles for reference
+- also to comment out a set of rules
+
+    syntax:
+    -------
+    /* comment line */
+
+ refer - syntax.css
+
+------------------------------------------------------------------------------------------------------
+
+Targeting Elements:
+-------------------
+refer - contact.html, syntax.css
+
+------------------------------------------------------------------------------------------------------
+
 
