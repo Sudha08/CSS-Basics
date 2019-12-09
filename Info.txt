@@ -192,11 +192,35 @@ The Cascade & CSS conflicts:
     Cascading rep.
     --------------
 
+    CSS runs from top to bottom
+
     External CSS - bottom most rule
         |
         |____Embedded Styles - bottom most rule
                 |
                 |_____ Inline styles
                 
+------------------------------------------------------------------------------------------------------
+
+  LESSON-6 - Inheritance:
+  ------------------------
+
+<body> ---> Parent
+  <div> ---> Child of the body
+    <p> Text </p> ---> Child of the div / Grandchild of the body
+  </div>
+  <h1> Text </h1> ---> Child of the body
+</body>
+
+- If any style is applied to the body, it will be inherited to all the elements inside the body.
+
+    Refer contact.html, syntax.css
+
+- There are cases where inheritance won't work.
+
+  For e.g. The <a> tag will never inherit the styles of it's parent element, since the default browser style 
+  for the <a> tag is "a {color: blue; text-decoration: underline;}". However, this style can be overriden by
+  specifically targeting the <a> tag - Refer styles.css
+
 ------------------------------------------------------------------------------------------------------
 
