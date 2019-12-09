@@ -152,4 +152,51 @@ refer - contact.html, syntax.css
 
 ------------------------------------------------------------------------------------------------------
 
+  LESSON-5 - Targeting classes & Ids, Cascade & Conflicts
+  ---------------------------------------------------------
+
+Targeting classes & IDs:
+------------------------
+
+    Classes & IDs
+    -------------
+    - Both are ways to describe page contents 
+    - Classes can be used multiple times in a page
+    - IDs can be used only once per page - they're unique
+
+    refer - contact.html, syntax.css
+
+------------------------------------------------------------------------------------------------------
+
+The Cascade & CSS conflicts:
+----------------------------
+  Conflicts:
+  ---------
+  - Created when a particular element is targeted more than once
+   
+   refer syntax.css - span is targeted twice
+
+  Cascading:
+  ----------
+  - Once a conflict is created, the control will move/cascade form top to bottom
+    and the bottom most rule will be considered
+  
+  refer syntax.css, index.html
+
+  - span is targeted twice in syntax.css - so the second rule will be considered in all the pages
+  - span is targeted again the index.html - embedded styles - so this style will be 
+    considered for this page
+  - span is targeted again in index.html - inline style for a specific tag - this style will
+    be considered for this specific tag
+
+    Cascading rep.
+    --------------
+
+    External CSS - bottom most rule
+        |
+        |____Embedded Styles - bottom most rule
+                |
+                |_____ Inline styles
+                
+------------------------------------------------------------------------------------------------------
 
