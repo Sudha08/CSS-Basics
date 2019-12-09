@@ -110,6 +110,10 @@ LESSON-2 - Inline & Embedded styles
 - Both Inline & Embedded styles can be used when a specific page related or tag related style
   needs to be applied
 
+  --------------------------------
+  LESSON-3 - External stylesheet
+  --------------------------------
+
 - External style sheets - most preferred
   ---------------------
   - Quicker & easier

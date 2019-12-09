@@ -11,11 +11,16 @@
     font-size: 32px;
 }
 
+p {    
+    font-size: 12px;
+}
+
 /* LESSON-2 - NO SPECIFIC RULES ADDED */
 
-/* LESSON-3 - EXTERNAL STYLESHEET */ 
+/* LESSON-3 - EXTERNAL STYLESHEET */
 
 p {
     font-size: 18px;
     color: red;
 }
+
