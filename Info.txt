@@ -16,6 +16,9 @@ What will be covered:
 - put it all together
 ------------------------------------------------------------------------------------------------------
 
+LESSON-1 - Intro, Default browser styles, Syntax
+--------------------------------------------------
+
 What is CSS?
 --------------
 - CSS - Cascading Style Sheets
@@ -72,6 +75,9 @@ CSS Syntax:
 
 refer index.html, CSS/syntax.css
 ------------------------------------------------------------------------------------------------------
+
+LESSON-2 - Inline & Embedded styles
+-------------------------------------
 
 3 ways to add CSS:
 ------------------
