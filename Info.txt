@@ -110,8 +110,23 @@ LESSON-2 - Inline & Embedded styles
 - Both Inline & Embedded styles can be used when a specific page related or tag related style
   needs to be applied
 
+  --------------------------------
+  LESSON-3 - External stylesheet
+  --------------------------------
+
 - External style sheets - most preferred
   ---------------------
+  - Quicker & easier
+
+  - Add the below line in the <head> of the <html> to link the external style sheet
+
+    <link rel="stylesheet" type="text/css" href="CSS/syntax.css" />
+        
+    - rel - relation
+    - type - type of the file/doc.
+    - href - location of the external style sheet
+
+  refer - index.html, contact.html, syntax.css
 
 ------------------------------------------------------------------------------------------------------
 
