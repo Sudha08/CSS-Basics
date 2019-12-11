@@ -1,0 +1,20 @@
+
+/* LESSON-7 - SELECTOR SPECIFICITY */
+
+/* Explicitly targeting the p tags within #main-content
+    Implicitly targeting the strong tags */
+#main-content p { /* 101 points */
+    color: red;
+}
+
+p { /* 1 point */
+    color: black;
+}
+
+.test { /* 10 points */
+    color: green;
+}
+
+strong { /* explicitly targeting the strong tags */
+    color: green;
+}

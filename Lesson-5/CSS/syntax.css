@@ -1,0 +1,26 @@
+
+/*LESSON-5 -  TARGETING CLASSES & IDS, CONFLICTS & CASCADING*/
+
+h2 {
+    font-size: 24px;
+}
+
+/*Target Id */
+#content-header {
+    font-size: 18px;
+    color:red;
+}
+
+span {
+    display: block;
+    color: blue;
+}
+
+span {
+    color: purple;
+}
+
+/*Target class */
+.deck {
+    color: green;    
+}

@@ -71,9 +71,6 @@ CSS Syntax:
         font-size:10px; 
         color:red;
         }
-
-
-refer index.html, CSS/syntax.css
 ------------------------------------------------------------------------------------------------------
 
 LESSON-2 - Inline & Embedded styles
@@ -89,8 +86,6 @@ LESSON-2 - Inline & Embedded styles
 
    - Good for very specialised rules - for eg- a warning msg where we need a specific style to
                                                override anyother styles
-    
-    refer - index.html
 
     - Inline style has been applied for the <div id="header">
       when we have multiple <div> tags, it is hard to apply inline styles for all of them.
@@ -101,8 +96,6 @@ LESSON-2 - Inline & Embedded styles
   - Hard to maintain & update
 
   - Good for making specific page styles
-
-  refer - index.html, contact.HTML
 
   - Embedded style has been applied for all the <p> tags in both the pages.
     It is hard to apply this type of styling when we have huge number of pages
@@ -126,8 +119,6 @@ LESSON-2 - Inline & Embedded styles
     - type - type of the file/doc.
     - href - location of the external style sheet
 
-  refer - index.html, contact.html, syntax.css
-
 ------------------------------------------------------------------------------------------------------
 
   LESSON-4 - Adding Comments & Targeting Elements/Tags
@@ -142,13 +133,17 @@ CSS comments:
     -------
     /* comment line */
 
- refer - syntax.css
-
 ------------------------------------------------------------------------------------------------------
 
 Targeting Elements:
 -------------------
-refer - contact.html, syntax.css
+
+In order to apply a style for any element / tag, add a rule like below.
+
+This rule will target all the p tags and color them red.
+  p {
+    color: red;
+  }
 
 ------------------------------------------------------------------------------------------------------
 
@@ -164,7 +159,15 @@ Targeting classes & IDs:
     - Classes can be used multiple times in a page
     - IDs can be used only once per page - they're unique
 
-    refer - contact.html, syntax.css
+    Syntax for class:
+      .classname {
+        rule
+      }
+
+    Syntax for Id:
+      #Idname {
+        rule
+      }
 
 ------------------------------------------------------------------------------------------------------
 
@@ -173,15 +176,11 @@ The Cascade & CSS conflicts:
   Conflicts:
   ---------
   - Created when a particular element is targeted more than once
-   
-   refer syntax.css - span is targeted twice
 
   Cascading:
   ----------
   - Once a conflict is created, the control will move/cascade form top to bottom
     and the bottom most rule will be considered
-  
-  refer syntax.css, index.html
 
   - span is targeted twice in syntax.css - so the second rule will be considered in all the pages
   - span is targeted again the index.html - embedded styles - so this style will be 
@@ -214,13 +213,51 @@ The Cascade & CSS conflicts:
 
 - If any style is applied to the body, it will be inherited to all the elements inside the body.
 
-    Refer contact.html, syntax.css
-
 - There are cases where inheritance won't work.
 
   For e.g. The <a> tag will never inherit the styles of it's parent element, since the default browser style 
   for the <a> tag is "a {color: blue; text-decoration: underline;}". However, this style can be overriden by
-  specifically targeting the <a> tag - Refer styles.css
+  specifically targeting the <a> tag.
 
 ------------------------------------------------------------------------------------------------------
+
+  LESSON-7 - Selector Specificity:
+  ---------------------------------
+
+Conflicts & Cascade:
+
+  p { color: red; }
+  p { color: black; } --> This rule wins as CSS runs from top to bottom
+
+  Where as
+    #main-content p { --> This rule wins as this is more specific
+      color: red;
+    }
+
+    p {
+      color: black;
+    }
+
+How does CSS know which rule is more specific? It's based on the points system below.
+
+  ID's - 100 points
+  Classes - 10 points
+  Elements - 1 point
+
+  The selector which has the most points wins
+
+  In the above eg.
+
+     __ 100 points  __ 1 point
+    |              |
+    #main-content  p { --> 101 points in total, this rule wins
+      color: red;
+    }
+
+    p { --> 1 point in total
+      color: black;
+    }
+
+------------------------------------------------------------------------------------------------------
+
 

@@ -1,0 +1,23 @@
+
+/* LESSON-6 - INHERITANCE */
+
+/* Color everything inside the body tag "Blue" */
+body {
+    color: red;
+}
+
+/* Color everything inside the div tag "Red" - overriding the inherited style from body */
+div {
+    color: blue;
+}
+
+/* Color all the P tags "Green" - overriding the inherited style from div */
+p {
+    color: green;
+}
+
+/* overriding the default browser style */
+a {
+    color: yellow;
+    text-decoration: underline;
+}
