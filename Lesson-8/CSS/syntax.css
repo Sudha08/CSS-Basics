@@ -1,0 +1,11 @@
+
+/* LESSON-8 - IMPORTANT DECLARATION */
+
+p {
+    color: red !important;
+}
+
+#main-content p {
+    color: green;
+}
+

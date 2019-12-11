@@ -260,4 +260,21 @@ How does CSS know which rule is more specific? It's based on the points system b
 
 ------------------------------------------------------------------------------------------------------
 
+  LESSON-8 - IMPORTANT DECLARATION
+  --------------------------------
+
+  - Tool we use within the CSS conflicts to make a property important which means, nothing can
+    override it
+  - Even if we have a rule that is more specific, this can't be overriden
+
+    Syntax:
+      p {
+        color: red !important;
+      }
+
+  - Use only when necessary as it can complicate the CSS
+
+------------------------------------------------------------------------------------------------------
+
+
 
