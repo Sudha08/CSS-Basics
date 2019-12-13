@@ -1,0 +1,16 @@
+
+/* LESSON-10 - DESCENDANT SELECTORS */
+
+#main-content p {
+    color: red;
+}
+
+#main-content #sub-content p { /* This rule shows how to go deep into descendant levels*/
+    color: orange;
+}
+
+/*same as*/
+
+#sub-content p {
+    color: orange;
+}

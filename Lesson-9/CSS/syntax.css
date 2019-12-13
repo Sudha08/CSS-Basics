@@ -1,0 +1,9 @@
+
+/* LESSON-9 - TARGETING MULTIPLE ELEMENTS */
+
+p, span, a, li {
+    color: red;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+}

@@ -276,5 +276,26 @@ How does CSS know which rule is more specific? It's based on the points system b
 
 ------------------------------------------------------------------------------------------------------
 
+  LESSON-9 - TARGETING MULTIPLE ELEMENTS
+  ---------------------------------------
 
+  - When a common style needs to be applied for multiple elements follow the syntax below
+
+      p, span, a, li { --> separate the elements using a comma
+        rules
+      }
+
+------------------------------------------------------------------------------------------------------
+
+  LESSON-10 - DESCENDANT SELECTORS
+  ---------------------------------
+
+  <body>
+    <div> ---> descendant of body
+      <h1>Text</h1> ---> descendant of body & div
+    </div>
+    <h1>Text</h1> ---> descendant of body
+  </body>
+
+------------------------------------------------------------------------------------------------------
 
