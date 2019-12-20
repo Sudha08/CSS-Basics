@@ -1,0 +1,7 @@
+
+/* LESSON-12 - ADJACENT SELECTORS */
+
+#all-articles h2 + p {
+    color: green;
+}
+

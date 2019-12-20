@@ -1,0 +1,31 @@
+
+/* LESSON-13 - ATTRIBUTE SELECTORS */
+
+span[class] {
+    color: red;
+}
+
+div[id] {
+    background: grey;
+}
+
+a[title="search engine"] {
+    color: green;
+}
+
+/*pattern matching*/
+
+/*all the links containing href "containing deck" - need not match the whole word*/
+span[class~="deck"] {
+    color: crimson;
+}
+
+/*all the links containing href "Ending with pdf"*/
+a[href$="pdf"] {
+    color: pink;
+}
+
+/*all the links containing href "Starting with http"*/
+a[href^="http"] {
+    color: orange;
+}

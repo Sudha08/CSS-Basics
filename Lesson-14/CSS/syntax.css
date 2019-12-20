@@ -1,0 +1,10 @@
+
+/* LESSON-14 - PSEUDO SELECTORS */
+
+a:hover {
+    color: red;
+}
+
+#main-content:hover {
+    background: green;
+}

@@ -297,5 +297,96 @@ How does CSS know which rule is more specific? It's based on the points system b
     <h1>Text</h1> ---> descendant of body
   </body>
 
+  All the elements/tags that are nested within another element/tag are called the descendants of 
+  the element
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-11 - CHILD SELECTORS
+----------------------------
+
+  <body>
+    <div> ---> direct child of body
+      <h1>Text</h1> ---> direct child of div / grandchild of body
+    </div>
+    <h1>Text</h1> ---> direct child of body
+  </body>
+
+  Syntax to style direct child of an element
+
+  body > div { ---> This rule will style all the divs that are direct children of the body
+    declaration;
+  }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-12 - ADJACENT SELECTORS
+------------------------------
+
+  An adjacent selector is a selector that selects an element which comes directly after another element
+
+  Syntax:
+
+    #id-selector h2 + p { ---> This rule will style all the p tags that comes directly after the h2
+      declaration;
+    }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-13 - ATTRIBUTE SELECTORS
+--------------------------------
+
+Attribute in HTML are essentially giving additional information about a tag
+
+  Syntax:
+
+    span[class] { ---> This rule will style all the spans that has a "class" attribute
+      declaration
+    }
+
+    - This rule will style all the divs that has a title attribute = title name -> is case sensitive
+                                                  (make sure the title in html & styles are the same)
+    div[title="title name"] {
+      declaration
+    }
+
+
+    refer "syntax.css" for more variations
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-14 - PSEUDO CLASSES
+-----------------------------
+
+- Special keywords that go after selectors
+- They can be used to target:
+    - Special behavioural states
+    - Advanced structural elements
+
+                   Pseudo Class Groups
+          Dynamic                       Structural
+    - Based on behaviour          - Advanced structural
+      e.g. Hover effects            e.g. Parent- child relationships
+
+Dynamic Pseudo Classes:
+-----------------------
+  - Allows us to style an element in relation to user actions such as:
+      - Whether a link is being hovered over
+      - Whether a button is being pressed
+      - Whether a tick box is being checked
+  
+Structural Pseudo Classes:
+--------------------------
+  - Allows us to style elements based on advanced structural techniques not possible
+    from ordinary CSS selectors
+      - The 5th li tag in the list
+      - A parent tag that has no children
+
+  Syntax:
+  -------
+    .class:keyword {
+      declaration
+    }
+
 ------------------------------------------------------------------------------------------------------
 
