@@ -358,6 +358,7 @@ Attribute in HTML are essentially giving additional information about a tag
 LESSON-14 - PSEUDO CLASSES
 -----------------------------
 
+- Pseudo classes are extension to normal CSS selectors, to target more specific things
 - Special keywords that go after selectors
 - They can be used to target:
     - Special behavioural states
@@ -377,16 +378,26 @@ Dynamic Pseudo Classes:
   
 Structural Pseudo Classes:
 --------------------------
-  - Allows us to style elements based on advanced structural techniques not possible
-    from ordinary CSS selectors
+  - Allows us to style elements based on advanced structural techniques 
+    not possible from ordinary CSS selectors
       - The 5th li tag in the list
       - A parent tag that has no children
 
   Syntax:
-  -------
-    .class:keyword {
+  -------    
+    selector:keyword {
       declaration
     }
 
 ------------------------------------------------------------------------------------------------------
 
+LESSON-15 - HOVER, VISITED & ACTIVE PSEUDO CLASSES
+---------------------------------------------------
+
+- Mostly used for links
+
+    a:hover {           a:active {            a:visited {
+      declaration         declaration           declaration
+    }                   }                     }
+
+------------------------------------------------------------------------------------------------------

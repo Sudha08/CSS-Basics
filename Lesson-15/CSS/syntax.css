@@ -1,0 +1,14 @@
+
+/* LESSON-15 - HOVER, VISITED & ACTIVE PSEUDO CLASSES */
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
