@@ -1,0 +1,12 @@
+
+/* LESSON-19 - nth of TYPE SELECTORS */
+
+/* refer lists.html */
+
+article:nth-of-type(even) {
+    background: grey;
+}
+
+article:nth-of-type(2n + 1) {
+    background: pink;
+}

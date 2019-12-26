@@ -1,0 +1,12 @@
+
+/* LESSON-20 - COMBINING SELECTORS */
+
+/* refer lists.html */
+
+article.featured-content {
+    background: blue;
+}
+
+div.featured-content {
+    background: red;
+}

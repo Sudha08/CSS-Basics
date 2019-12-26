@@ -1,0 +1,12 @@
+
+/* LESSON-17 - FIRST & LAST OF TYPE PSEUDO CLASSES */
+
+/* refer articles.html */
+
+article p:first-of-type {
+    font-weight: bold;
+}
+
+article p:last-of-type {
+    color: red;
+}

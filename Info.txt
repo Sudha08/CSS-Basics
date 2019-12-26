@@ -394,10 +394,111 @@ Structural Pseudo Classes:
 LESSON-15 - HOVER, VISITED & ACTIVE PSEUDO CLASSES
 ---------------------------------------------------
 
-- Mostly used for links
+- Dynamic Pseudo classses
+
+- Mostly used for links or for buttons or anything that is more interactive on a webpage
 
     a:hover {           a:active {            a:visited {
       declaration         declaration           declaration
     }                   }                     }
 
 ------------------------------------------------------------------------------------------------------
+
+LESSON-16 - FIRST & LAST CHILD SELECTORS
+-----------------------------------------
+
+- These are structural pseudo classes
+
+- Syntax
+  -------
+
+    selector:first-child {
+      declaration
+    }
+
+    selector:last-child {
+      declaration
+    }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-17 - FIRST & LAST OF TYPE PSEUDO CLASSES
+------------------------------------------------
+
+- These are structural pseudo classes
+
+- Syntax
+  ------
+
+    selector:first-of-type {
+      declaration
+    }
+
+    selector:last-of-type {
+      declaration
+    }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-18 - nth CHILD SELECTORS
+--------------------------------
+
+- structural pseudo class
+
+- Can be used when the HTML element does not have a class or id tagged to it
+
+- Syntax
+  ------                _____ The position of the element to be styled  
+                       |
+    selector:nth-child(3) {  ---> will style the 3rd element
+      declaraion
+    }
+
+    selector:nth-child(even) { ----> will style all the even elements
+      declaration
+    }
+
+    selector:nth-child(odd) { ---> Will style all the odd elements
+      declaration
+    }
+
+    selector:nth-child(2n + 1) { ---> Will style the elements based on a formula
+      declaration                      2n + 1 --> for a 2nd element, 2(2)+1 = 5,
+    }                                  5th element will be styled
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-19 - nth of TYPE SELECTORS
+---------------------------------
+
+- structural pseudo class
+
+- Syntax
+  ------
+
+    selector:nth-of-type(even/odd) {
+      declaration
+    }
+
+    selector:nth-of-type(2n + 1) {
+      declaration
+    }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-20 - COMBINING SELECTORS
+--------------------------------
+
+- Syntax
+  ------
+
+  selector.selector {
+    declaration
+  }
+
+  - There should be no space between the selectors.
+  - If a space is specified, the second selector will reperesent the direct descendants 
+    of the first selector
+
+------------------------------------------------------------------------------------------------------
+
