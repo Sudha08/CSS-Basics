@@ -498,7 +498,62 @@ LESSON-20 - COMBINING SELECTORS
 
   - There should be no space between the selectors.
   - If a space is specified, the second selector will reperesent the direct descendants 
-    of the first selector
+    of the first selector and won't style the selector that has the second selector as class
 
 ------------------------------------------------------------------------------------------------------
 
+LESSON-21 - UNIVERSAL SELECTOR
+--------------------------------
+
+- You can style every tag/element using one rule
+- It is called the God Selector
+
+Syntax
+------
+  * {
+    declaration;
+  }
+
+  - This will target all the elements in the html page
+  - This is entirely different from inheritance
+      for e.g. if you style the body like
+        body {
+          color: red;
+        }
+      This style will be passed on to the child elements, but it will not override the
+      default browser styles.
+  - Whereas the universal selector will strip out all the default styles and override it
+
+  - This will be used to perform a CSS reset - means the default styles of the browser will be
+    removed and overriden with the styles specified in this selector.
+  - Mostly used to remove the default padding, margin, text-decoration, color of the tags/elements
+
+  An example of CSS reset
+    *{
+      margin: 0; // to remove the default margin from h1.h2, ul, li tags 
+      padding: 0; // to remove the default padding from h1.h2, ul, li tags
+      text-decoration: none; // e.g to remove the underline from links
+      color: black; // will style all the elements including links (default browser style  is blue)
+    }
+
+------------------------------------------------------------------------------------------------------
+
+LESSON-22 - FONT SIZE
+----------------------
+- Section to focus on the declarations and different properties
+
+2 types of measurements
+------------------------
+Absolute                      Relative
+  - Pixels (px)                 - Ems (em)
+                                - Percentage (%)
+
+Syntax
+-------
+  .selector {
+    font-size: 20px; / 3em; / 50%;
+  }
+
+- Relative measurements work really good for responsive web layouts
+
+------------------------------------------------------------------------------------------------------

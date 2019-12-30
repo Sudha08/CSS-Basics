@@ -1,0 +1,21 @@
+
+/* LESSON-22 - FONT SIZE */
+
+/* will style all the elements inside the article tag */
+article {
+    font-size: 16px;
+}
+
+/* Will inherit the 16px from previous style and 
+   multiply it thrice (4 * 16 = 64px) */
+article h2 {
+    font-size: 4em;
+}
+
+/* Will inherit the 16px from the previous style and
+   make it 50% of that style (16 * 50% = 8px) */
+article p {
+    font-size: 50%;
+}
+
+
