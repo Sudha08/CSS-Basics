@@ -124,7 +124,7 @@ LESSON-2 - Inline & Embedded styles
   LESSON-4 - Adding Comments & Targeting Elements/Tags
   -----------------------------------------------------
 
-CSS comments:
+CSS comments: - refer comments.css
 -------------
 - way to add some plain text to the styles for reference
 - also to comment out a set of rules
